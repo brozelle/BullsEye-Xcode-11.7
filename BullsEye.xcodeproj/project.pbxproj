@@ -13,6 +13,9 @@
 		5DE269A82518EEF000EEE1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE269A62518EEF000EEE1DF /* Main.storyboard */; };
 		5DE269AA2518EEF100EEE1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE269A92518EEF100EEE1DF /* Assets.xcassets */; };
 		5DE269AD2518EEF100EEE1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE269AB2518EEF100EEE1DF /* LaunchScreen.storyboard */; };
+		5DE269B52519946F00EEE1DF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE269B42519946F00EEE1DF /* AboutViewController.swift */; };
+		5DE269B7251A1AC300EEE1DF /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 5DE269B6251A1AC300EEE1DF /* BullsEye.html */; };
+		5DE269BA251A1B7D00EEE1DF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE269B9251A1B7D00EEE1DF /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5DE269A92518EEF100EEE1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DE269AC2518EEF100EEE1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DE269AE2518EEF100EEE1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE269B42519946F00EEE1DF /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5DE269B6251A1AC300EEE1DF /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		5DE269B9251A1B7D00EEE1DF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE269BA251A1B7D00EEE1DF /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				5DE2699F2518EEF000EEE1DF /* BullsEye */,
 				5DE2699E2518EEF000EEE1DF /* Products */,
+				5DE269B8251A1B7C00EEE1DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +64,25 @@
 		5DE2699F2518EEF000EEE1DF /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				5DE269B42519946F00EEE1DF /* AboutViewController.swift */,
+				5DE269A92518EEF100EEE1DF /* Assets.xcassets */,
 				5DE269A02518EEF000EEE1DF /* AppDelegate.swift */,
+				5DE269B6251A1AC300EEE1DF /* BullsEye.html */,
+				5DE269AE2518EEF100EEE1DF /* Info.plist */,
+				5DE269AB2518EEF100EEE1DF /* LaunchScreen.storyboard */,
+				5DE269A62518EEF000EEE1DF /* Main.storyboard */,
 				5DE269A22518EEF000EEE1DF /* SceneDelegate.swift */,
 				5DE269A42518EEF000EEE1DF /* ViewController.swift */,
-				5DE269A62518EEF000EEE1DF /* Main.storyboard */,
-				5DE269A92518EEF100EEE1DF /* Assets.xcassets */,
-				5DE269AB2518EEF100EEE1DF /* LaunchScreen.storyboard */,
-				5DE269AE2518EEF100EEE1DF /* Info.plist */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		5DE269B8251A1B7C00EEE1DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE269B9251A1B7D00EEE1DF /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE269AD2518EEF100EEE1DF /* LaunchScreen.storyboard in Resources */,
+				5DE269B7251A1AC300EEE1DF /* BullsEye.html in Resources */,
 				5DE269AA2518EEF100EEE1DF /* Assets.xcassets in Resources */,
 				5DE269A82518EEF000EEE1DF /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 			files = (
 				5DE269A52518EEF000EEE1DF /* ViewController.swift in Sources */,
 				5DE269A12518EEF000EEE1DF /* AppDelegate.swift in Sources */,
+				5DE269B52519946F00EEE1DF /* AboutViewController.swift in Sources */,
 				5DE269A32518EEF000EEE1DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
